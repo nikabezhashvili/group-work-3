@@ -30,9 +30,10 @@ choose_paper = () => {
         choose.style.display = 'none'
         for_game.style.display = 'block'
         ld.classList.add("ld1", "paper");
+        console.log(ld);
+        console.log(ld.className);
         middle.style.display = 'block'
         computer_choose.src = for_rand[rand]
-        console.log(for_rand[rand]);
         user_choose.src = "./images/icon-paper.svg"
         switch (for_rand[rand]) {
             case './images/icon-paper.svg':
@@ -70,7 +71,6 @@ choose_rock = () => {
         ld.classList.add("ld1", "rock");
         middle.style.display = 'block'
         computer_choose.src = for_rand[rand]
-        console.log(for_rand[rand]);
         user_choose.src = "./images/icon-rock.svg"
         switch (for_rand[rand]) {
             case './images/icon-paper.svg':
@@ -108,7 +108,6 @@ choose_scissors = () => {
         ld.classList.add("ld1", "scissors");
         middle.style.display = 'block'
         computer_choose.src = for_rand[rand]
-        console.log(for_rand[rand]);
         user_choose.src = "./images/icon-scissors.svg"
         switch (for_rand[rand]) {
             case './images/icon-paper.svg':

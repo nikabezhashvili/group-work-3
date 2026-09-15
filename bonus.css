@@ -15,7 +15,7 @@ body{
     font-family: 'Barlow Semi Condensed';
     background: linear-gradient(hsl(214, 47%, 23%), hsl(237, 48%, 15%));
 }
-
+/* header დიზაინი */
 header{
     width: 100vw;
     display: flex;
@@ -63,6 +63,7 @@ header > div{
     line-height: 0.95;
     color: hsl(246, 11%, 37%);
 }
+/* main დიზაინი */
 
 main{
     width: 100vw;
@@ -71,7 +72,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-
+/* main-ში არჩევის სტილის დიზაინი */
 #choose{
     width: 400px;
     height: 400px;
@@ -142,36 +143,7 @@ main{
     bottom: 48%;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-#btn1{
-    background-color: #141639;
-    color: white;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px hsl(246, 11%, 37%) solid;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-
-#btn2{
-    background-color: #141639;
-    color: white;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px hsl(246, 11%, 37%) solid;
-    cursor: pointer;
-    letter-spacing: 2px;
-}
-
+/* main-ში თამაშის პროცესის სტილი სადაც გამოჩნდება მომხმარებლის და კომპიუტერის არჩევანს და ტექსტს */
 #for_game{
     display: none;
 }
@@ -226,7 +198,7 @@ footer{
     margin-bottom: 20px;
 }
 
-
+/* main -> #game_proces-ში საბოლოო შედეგის შუაში ტექსტი (you win/you lose/ draw) და ასევე ღილაკი*/
 #middle{
     display: none;
     align-items: center;
@@ -250,6 +222,7 @@ footer{
     font-weight: 600;
 }
 
+/* main-ში rule დივის სტილი */
 #rule{
     display: none;
     position: fixed;
@@ -290,4 +263,34 @@ footer{
     width: 25px;
     height: 25px;
     cursor: pointer;
+}
+/* footer დიზაინი */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#btn1{
+    background-color: #141639;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px hsl(246, 11%, 37%) solid;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#btn2{
+    background-color: #141639;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px hsl(246, 11%, 37%) solid;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
